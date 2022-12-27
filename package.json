@@ -16,7 +16,7 @@
     "type": "git",
     "url": "git+https://github.com/curegit/vue-spa-template.git"
   },
-  "author": "curegit",
+  "author": "curegit (https://github.com/curegit)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/curegit/vue-spa-template/issues"
