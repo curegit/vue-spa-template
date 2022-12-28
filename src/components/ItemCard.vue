@@ -8,7 +8,7 @@ defineProps<{
 <template>
   <article class="item">
     <header>
-      <img class="icon" :src="icon" />
+      <img class="icon" :src="icon" :alt="heading" />
       <h3 class="heading">{{ heading }}</h3>
     </header>
     <main class="details">
