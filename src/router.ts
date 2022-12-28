@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 
-import WorkspaceView from "./views/AboutView.vue";
+import AboutView from "./views/AboutView.vue";
 import HomeView from "./views/HomeView.vue";
 
 export default createRouter({
@@ -14,7 +14,7 @@ export default createRouter({
     {
       path: "/about",
       name: "about",
-      component: WorkspaceView,
+      component: AboutView,
     },
     {
       path: "/:path(.*)*",
