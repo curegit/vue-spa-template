@@ -2,7 +2,7 @@
 import ItemCard from "../components/ItemCard.vue";
 
 import vueIcon from "../assets/vue.svg";
-import viteSvg from "../assets/vite.svg";
+import viteIcon from "../assets/vite.svg";
 import tsIcon from "../assets/typescript.svg";
 </script>
 
@@ -13,7 +13,7 @@ import tsIcon from "../assets/typescript.svg";
       <ItemCard heading="Vue" :icon="vueIcon">
         <p><strong>Vue</strong> is a front end JavaScript framework.</p>
       </ItemCard>
-      <ItemCard heading="Vite" :icon="viteSvg">
+      <ItemCard heading="Vite" :icon="viteIcon">
         <p>
           <strong>Vite</strong>
         </p>
