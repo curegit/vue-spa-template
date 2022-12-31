@@ -19,21 +19,33 @@ import { RouterLink, RouterView } from "vue-router";
 
 <style scoped>
 header {
+  padding: 12px 20px 16px;
   color: azure;
   background-color: hotpink;
 }
 
 h1 {
-  margin: 20px;
+  //margin: 20px;
+}
+
+nav {
+  display: flex;
+  margin-left: 18px;
+  column-gap: 6px;
 }
 
 nav a {
-  display: block;
+    display: block;
+    background-color: azure;
+    padding: 4px 14px;
+    border-radius: 10px;
+	box-shadow: #9b9b9b 0px 2px;
+	color: #4d38ff;
 }
 
 footer {
   color: aliceblue;
-  background-color: deepskyblue;
+  padding: 10px 30px 20px;
   text-align: center;
 }
 </style>
