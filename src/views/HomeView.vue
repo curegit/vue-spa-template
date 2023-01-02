@@ -18,14 +18,25 @@ const icons = {
     <HelloWorld message="Vite + Vue + TS" />
   </main>
   <aside>
-    <figure v-for="(val, key) in icons" :key="key">
-      <img class="icon" :src="val" :alt="key" />
+    <figure class="icon" v-for="(val, key) in icons" :key="key">
+      <img :src="val" :alt="key" />
     </figure>
   </aside>
 </template>
 
 <style scoped>
-.grid {
-  display: grid;
+aside {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.icon {
+  width: 140px;
+  margin: 10px 30px;
+}
+
+.icon img {
+  width: 100%;
 }
 </style>

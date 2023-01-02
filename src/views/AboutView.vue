@@ -28,8 +28,14 @@ import tsIcon from "../assets/typescript.svg";
 </template>
 
 <style scoped>
+main {
+  margin-bottom: 10px;
+}
+
 div.cards {
   display: grid;
+  max-width: 1600px;
   grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  gap: 8px;
 }
 </style>

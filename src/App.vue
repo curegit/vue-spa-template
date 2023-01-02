@@ -10,7 +10,9 @@ import { RouterLink, RouterView } from "vue-router";
       <RouterLink to="/about">About</RouterLink>
     </nav>
   </header>
-  <RouterView />
+  <div id="content">
+    <RouterView />
+  </div>
   <footer>
     <p>MIT License</p>
     <p>Copyright © 2022 curegit</p>
@@ -19,7 +21,7 @@ import { RouterLink, RouterView } from "vue-router";
 
 <style scoped>
 header {
-  padding: 12px 20px 16px;
+  padding: 12px 20px 20px;
   color: azure;
   background-color: hotpink;
 }
@@ -37,10 +39,24 @@ nav {
 nav a {
     display: block;
     background-color: azure;
-    padding: 4px 14px;
+    padding: 4px 14px 2px;
     border-radius: 10px;
 	box-shadow: #9b9b9b 0px 2px;
 	color: #4d38ff;
+	text-decoration: none;
+}
+
+nav a:hover {
+   background-color: #dcdfdf;
+}
+
+nav a:active {
+   background-color: #bcbfbf;
+}
+
+#content {
+  background-color: #fff;
+  padding: 20px;
 }
 
 footer {
