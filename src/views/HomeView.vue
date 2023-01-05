@@ -4,11 +4,15 @@ import HelloWorld from "../components/HelloWorld.vue";
 import vueIcon from "../assets/vue.svg";
 import viteIcon from "../assets/vite.svg";
 import tsIcon from "../assets/typescript.svg";
+import eslintIcon from "../assets/eslint.svg";
+import prettierIcon from "../assets/prettier.svg";
 
 const icons = {
   Vue: vueIcon,
   Vite: viteIcon,
   TypeScript: tsIcon,
+  EslintIcon: eslintIcon,
+  Prettier: prettierIcon,
 };
 </script>
 
