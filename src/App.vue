@@ -56,7 +56,7 @@ nav a:active {
 
 #content {
   background-color: #fff;
-  padding: 20px;
+  padding: 30px;
 }
 
 footer {

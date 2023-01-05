@@ -33,9 +33,11 @@ aside {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  margin: 0 20px;
 }
 
 .icon {
+  align-self: center;
   width: 140px;
   margin: 10px 30px;
 }
