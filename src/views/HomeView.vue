@@ -29,6 +29,10 @@ const icons = {
 </template>
 
 <style scoped>
+main {
+  margin-bottom: 20px;
+}
+
 aside {
   display: flex;
   flex-flow: row wrap;

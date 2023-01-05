@@ -24,7 +24,7 @@ article {
   grid-template-rows: auto 1fr;
   border: 1px solid #ccc;
   border-radius: 8px;
-  padding: 8px;
+  padding: 12px;
   gap: 6px 14px;
 }
 

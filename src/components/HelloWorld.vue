@@ -11,6 +11,8 @@ defineProps<{
 
 <style scoped>
 p.msg {
-  color: aquamarine;
+  margin-left: 8px;
+  color: #35495e;
+  font-size: 110%;
 }
 </style>
