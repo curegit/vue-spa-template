@@ -19,7 +19,7 @@ const icons = {
 <template>
   <main>
     <h2>Home</h2>
-    <HelloWorld message="Vite + Vue + TS" />
+    <HelloWorld message="Vue + Vite + TypeScript + ESLint + Prettier template for single-page applications" />
   </main>
   <aside>
     <figure v-for="(val, key) in icons" :key="key" class="icon">
