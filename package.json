@@ -5,11 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc --noEmit && rm -rf dist && vite build",
+    "build": "vue-tsc --noEmit && vite build",
     "serve": "vite preview --port 8080",
-    "check": "vue-tsc --noEmit && eslint 'src/**/*.{ts,tsx,vue}' && prettier -cu --ignore-path .gitignore .",
-    "lint": "eslint 'src/**/*.{ts,tsx,vue}'",
-    "fix": "eslint --fix 'src/**/*.{ts,tsx,vue}'",
+    "check": "vue-tsc --noEmit && eslint --ext .ts,.tsx,.vue . && prettier -cu --ignore-path .gitignore .",
+    "lint": "eslint --ext .ts,.tsx,.vue .",
+    "fix": "eslint --fix --ext .ts,.tsx,.vue .",
     "format": "prettier -cwu --ignore-path .gitignore ."
   },
   "repository": {
