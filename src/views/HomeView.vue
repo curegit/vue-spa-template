@@ -22,7 +22,7 @@ const icons = {
     <HelloWorld message="Vite + Vue + TS" />
   </main>
   <aside>
-    <figure class="icon" v-for="(val, key) in icons" :key="key">
+    <figure v-for="(val, key) in icons" :key="key" class="icon">
       <img :src="val" :alt="key" />
     </figure>
   </aside>
