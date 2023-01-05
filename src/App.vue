@@ -22,12 +22,12 @@ import { RouterLink, RouterView } from "vue-router";
 <style scoped>
 header {
   padding: 12px 20px 20px;
-  color: azure;
-  background-color: hotpink;
+  background-color: #ff69b4;
+  color: #f0ffff;
 }
 
 h1 {
-  //margin: 20px;
+  font-size: 200%;
 }
 
 nav {
@@ -37,21 +37,21 @@ nav {
 }
 
 nav a {
-    display: block;
-    background-color: azure;
-    padding: 4px 14px 2px;
-    border-radius: 10px;
-	box-shadow: #9b9b9b 0px 2px;
-	color: #4d38ff;
-	text-decoration: none;
+  display: block;
+  background-color: azure;
+  padding: 4px 14px 2px;
+  border-radius: 10px;
+  box-shadow: #9b9b9b 0px 2px;
+  color: #4d38ff;
+  text-decoration: none;
 }
 
 nav a:hover {
-   background-color: #dcdfdf;
+  background-color: #dcdfdf;
 }
 
 nav a:active {
-   background-color: #bcbfbf;
+  background-color: #bcbfbf;
 }
 
 #content {
