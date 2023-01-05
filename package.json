@@ -1,5 +1,6 @@
 {
   "name": "vue-spa-template",
+  "description": "Vue + Vite + TypeScript + ESLint + Prettier template for single-page applications",
   "version": "1.0.0",
   "private": true,
   "type": "module",
