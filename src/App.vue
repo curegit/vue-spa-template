@@ -14,8 +14,10 @@ import { RouterLink, RouterView } from "vue-router";
     <RouterView />
   </div>
   <footer>
-    <p>MIT License</p>
-    <p>Copyright © 2022 curegit</p>
+    <small>
+      <p>MIT License</p>
+      <p>Copyright © 2022 curegit</p>
+    </small>
   </footer>
 </template>
 
