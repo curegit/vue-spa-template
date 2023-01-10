@@ -24,7 +24,7 @@ import { RouterLink, RouterView } from "vue-router";
 <style scoped>
 header {
   padding: 12px 20px 20px;
-  background-color: #ff1493;
+  background-color: var(--main-color);
   color: #f0ffff;
 }
 
