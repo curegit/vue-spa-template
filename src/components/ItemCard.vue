@@ -18,7 +18,7 @@ defineProps<{
 </template>
 
 <style scoped>
-article {
+.item {
   display: grid;
   grid-template-columns: 100px 1fr;
   grid-template-rows: auto 1fr;
@@ -28,17 +28,17 @@ article {
   gap: 6px 14px;
 }
 
-header {
+.item header {
   display: contents;
   width: 90%;
 }
 
-header img {
+.item .icon {
   width: 100%;
   grid-row: 1 / span 2;
 }
 
-header h3 {
+.item .heading {
   width: 80px;
   font-size: 130%;
   line-height: 1.5;
@@ -48,6 +48,7 @@ header h3 {
   padding: 1px 2px 2px 6px;
 }
 </style>
+
 <style>
 .item p {
   text-indent: 8px;
