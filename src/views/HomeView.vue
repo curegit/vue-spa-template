@@ -11,7 +11,7 @@ const icons = {
   Vue: vueIcon,
   Vite: viteIcon,
   TypeScript: tsIcon,
-  EslintIcon: eslintIcon,
+  ESLint: eslintIcon,
   Prettier: prettierIcon,
 };
 </script>
@@ -24,6 +24,7 @@ const icons = {
   <aside>
     <figure v-for="(val, key) in icons" :key="key" class="icon">
       <img :src="val" :alt="key" />
+      <figcaption>{{ key }}</figcaption>
     </figure>
   </aside>
 </template>
@@ -41,12 +42,16 @@ aside {
 }
 
 .icon {
-  align-self: center;
+  align-self: end;
   width: 140px;
   margin: 10px 30px;
 }
 
 .icon img {
   width: 100%;
+}
+
+.icon figcaption {
+  text-align: center;
 }
 </style>
