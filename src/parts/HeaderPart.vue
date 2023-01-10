@@ -26,7 +26,8 @@ h1 {
 nav {
   display: flex;
   margin-left: 18px;
-  column-gap: 6px;
+  flex-flow: row wrap;
+  gap: 6px;
 }
 
 nav a {
@@ -34,6 +35,7 @@ nav a {
   background-color: #f0ffff;
   padding: 4px 14px 2px;
   border-radius: 10px;
+  border-bottom: 2px solid transparent;
   box-shadow: #9b9b9b 0px 2px;
   color: #4d38ff;
   text-decoration: none;
@@ -45,5 +47,9 @@ nav a:hover {
 
 nav a:active {
   background-color: #bcbfbf;
+  padding-top: 6px;
+  border-bottom: none;
+
+  box-shadow: #bcbfbf 0px 2px;
 }
 </style>
