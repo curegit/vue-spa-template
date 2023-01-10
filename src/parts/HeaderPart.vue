@@ -42,13 +42,13 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #dcdfdf;
+  background-color: #dedede;
 }
 
 nav a:active {
-  background-color: #bcbfbf;
+  background-color: #bfbfbf;
   padding-top: 6px;
   border-bottom: none;
-  box-shadow: #bcbfbf 0px 2px;
+  box-shadow: #bfbfbf 0px 2px;
 }
 </style>
