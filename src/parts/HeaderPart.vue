@@ -32,11 +32,11 @@ nav {
 
 nav a {
   display: block;
-  background-color: #f0ffff;
   padding: 4px 14px 2px;
-  border-radius: 10px;
   border-bottom: 2px solid transparent;
+  border-radius: 10px;
   box-shadow: #9b9b9b 0px 2px;
+  background-color: #f0ffff;
   color: #4d38ff;
   text-decoration: none;
 }
@@ -49,7 +49,6 @@ nav a:active {
   background-color: #bcbfbf;
   padding-top: 6px;
   border-bottom: none;
-
   box-shadow: #bcbfbf 0px 2px;
 }
 </style>

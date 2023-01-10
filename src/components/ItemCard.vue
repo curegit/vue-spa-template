@@ -20,11 +20,11 @@ defineProps<{
 <style scoped>
 .item {
   display: grid;
-  grid-template-columns: 100px 1fr;
-  grid-template-rows: auto 1fr;
+  padding: 12px;
   border: 1px solid #ccc;
   border-radius: 8px;
-  padding: 12px;
+  grid-template-columns: 100px 1fr;
+  grid-template-rows: auto 1fr;
   gap: 6px 14px;
 }
 

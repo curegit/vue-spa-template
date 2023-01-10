@@ -36,15 +36,15 @@ main {
 
 aside {
   display: flex;
+  margin: 0 20px;
   flex-flow: row wrap;
   justify-content: center;
-  margin: 0 20px;
 }
 
 .icon {
-  align-self: end;
   width: 140px;
   margin: 10px 30px;
+  align-self: end;
 }
 
 .icon img {
