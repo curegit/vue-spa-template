@@ -13,10 +13,10 @@ import prettierIcon from "../assets/prettier.svg";
     <h2>About</h2>
     <div class="cards">
       <ItemCard heading="Vue" :icon="vueIcon">
-        <p><strong>Vue</strong> is a front end JavaScript framework.</p>
+        <p><strong>Vue</strong> is a JavaScript front-end framework.</p>
         <p>
-          One of the key features of Vue is its reactive components, which allow you to declaratively render dynamic
-          templates based on data changes.
+          One of the key features of Vue is its reactive components, which allow you to render dynamic elements
+          declaratively based on data changes.
         </p>
       </ItemCard>
       <ItemCard heading="Vite" :icon="viteIcon">
@@ -27,19 +27,22 @@ import prettierIcon from "../assets/prettier.svg";
       </ItemCard>
       <ItemCard heading="TypeScript" :icon="tsIcon">
         <p>
-          <strong>TypeScript</strong> is a programming language that is a super set of JavaScript. It has static typing
-          system, which allows developers to specify the data types of variables, function parameters, and return
-          values. This can help catch mistakes and bugs early on in the development process.
+          <strong>TypeScript</strong> is a programming language that is a superset of JavaScript. It has a static typing
+          system that allows developers to specify the data types of variables, function parameters, and return values.
+          That can help catch errors and bugs early in the development process.
         </p>
       </ItemCard>
       <ItemCard heading="ESLint" :icon="eslintIcon">
         <p>
-          <strong>ESLint</strong>
+          <strong>ESLint</strong> is a static code analysis tool used in JavaScript software development. It checks the
+          code for potential errors, bugs, and style violations.
         </p>
       </ItemCard>
       <ItemCard heading="Prettier" :icon="prettierIcon">
         <p>
-          <strong>Prettier</strong>
+          <strong>Prettier</strong> is a code formatter for a variety of programming languages. It automatically formats
+          the code according to a set of rules that are designed to make code more consistent, readable, and
+          aesthetically pleasing.
         </p>
       </ItemCard>
     </div>
