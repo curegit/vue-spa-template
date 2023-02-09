@@ -34,8 +34,8 @@ import prettierIcon from "../assets/prettier.svg";
       </ItemCard>
       <ItemCard heading="ESLint" :icon="eslintIcon">
         <p>
-          <strong>ESLint</strong> is a static code analysis tool used in JavaScript software development. It checks the
-          code for potential errors, bugs, and style violations.
+          <strong>ESLint</strong> is a static code analysis tool for JavaScript software development. It checks the code
+          for potential errors, bugs, and style violations.
         </p>
       </ItemCard>
       <ItemCard heading="Prettier" :icon="prettierIcon">
