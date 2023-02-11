@@ -8,11 +8,13 @@ It is intended for use with the VSCode IDE.
 
 ## Usage
 
-Clone the repository as a template and modify it.
+Download the master branch of the repository as a template and modify it.
 
 ```sh
-git clone https://github.com/curegit/vue-spa-template.git
-cd vue-spa-template
+curl -OL https://github.com/curegit/vue-spa-template/archive/refs/heads/master.zip
+unzip master.zip
+mv vue-spa-template-master new-project
+cd new-project
 npm install
 code .
 ```
