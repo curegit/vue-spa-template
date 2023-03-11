@@ -1,7 +1,7 @@
-env:
-  browser: true
 extends:
   - "eslint:recommended"
-  - "@vue/eslint-config-typescript"
   - "plugin:vue/vue3-recommended"
+  - "@vue/eslint-config-typescript"
   - "prettier"
+env:
+  browser: true
