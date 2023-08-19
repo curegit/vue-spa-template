@@ -37,7 +37,7 @@ nav a {
   border-radius: 10px;
   box-shadow: #9b9b9b 0px 2px;
   background-color: #f0ffff;
-  color: #4d38ff;
+  color: #1c34c0;
   text-decoration: none;
 }
 
