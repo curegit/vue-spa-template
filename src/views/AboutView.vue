@@ -57,7 +57,7 @@ main {
 div.cards {
   display: grid;
   max-width: 1600px;
-  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   gap: 8px;
 }
 </style>

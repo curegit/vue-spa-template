@@ -39,7 +39,6 @@ defineProps<{
 }
 
 .item .heading {
-  width: 80px;
   font-size: 130%;
   line-height: 1.5;
 }
