@@ -10,7 +10,7 @@
 <style scoped>
 footer {
   color: #fff;
-  padding: 10px 30px 20px;
+  padding: 20px 30px 30px;
   text-align: center;
 }
 </style>
