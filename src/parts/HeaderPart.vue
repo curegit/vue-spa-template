@@ -41,8 +41,10 @@ nav a {
   text-decoration: none;
 }
 
-nav a:hover {
-  background-color: #dedede;
+@media (any-hover: hover) {
+  nav a:hover {
+    background-color: #dedede;
+  }
 }
 
 nav a:active {
